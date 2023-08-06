@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes Online</title>
+  
+  <link rel="stylesheet" href="style.css" type="text/css" madia="all">
+
+  <link rel="shortcut icon" href="./1.png">
+</head>
+
+<body>
+  
+  
+  <main id="main">
+    
+    <input autocomplete="off" dir="auto" type="text" id="in" placeholder="Enter text..." class="scroll">
+    
+    <input type="file" accept="image/*" id="in2" class="in2">
+    
+    <button class="bigTextBtn" id="btn2">B-text</button>
+    
+    <label for="in2" id="lab">Img</label>
+    
+    <button id="btn1" type="submit">Add</button>
+    
+  </main>
+
+  
+  
+  
+  <br>
+  <hr>
+  
+  <div id="noon">
+    
+    
+    
+  </div>
+  
+  <button id="btnup">⬆️</button>
+  
+  
+  
+  <!--to add big text!-->
+  
+
+  
+  <!--end of big text!-->
+  
+  
+
+  
+  <!-- setting page!-->
+  
+    
+  
+  
+  <div id="settings">
+    <div id="setting-img"  class="settingsPageBtnShow">
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <div id="setting-page">
+    
+    <div id="setting-dad">
+      
+      <div id="setting-done" class="settingsPageBtnHidde" >Done</div>
+      
+      
+      
+      <div id="setting-d1">
+        <span id="span-1">Date</span>
+        <div id="span-2" data-btn="date" data-value="true" class="settingBtn dateBtn"></div>
+      </div>
+      
+      <div id="setting-d2">
+        <span id="span-1">Big-text</span>
+        <div id="span-2" data-btn="bigText" data-value="true" class="settingBtn Btext"></div>
+      </div>
+      
+      <div id="setting-d2">
+        <span id="span-1">Img btn</span>
+        <div id="span-2" data-btn="img" data-value="true" class="settingBtn imgBtn"></div>
+      </div>
+      
+      
+      <div id="setting-d2">
+        <span id="span-1">To-do-btn</span>
+        <div id="span-2" data-btn="toDo" data-value="true" class="settingBtn toDoBtn"></div>
+      </div>
+      
+      
+      <div id="setting-d2">
+         <span id="span-1">Copy-btn</span>
+         <div id="span-2" data-btn="copy" data-value="true" class="settingBtn copyBtn"></div>
+      </div>
+      
+      
+      <div id="setting-d2">
+        <span id="span-1">Edit-btn</span>
+        <div id="span-2" data-btn="edit" data-value="true" class="settingBtn editBtn"></div>
+      </div>
+      
+      
+      <div id="setting-d2">
+        <span id="span-1">Delete-btn</span>
+        <div id="span-2" data-btn="delet" data-value="true" class="settingBtn deletBtn"></div>
+      </div>
+      
+      
+      <div id="setting-d2"  class="importAllNotesJson" style="text-align: center; cursor: pointer;">
+        <span id="span-1" class="importAllNotesJson" >Import Json</span>
+      </div>
+
+      <div id="setting-d2" class="exportAllNotesJson" style="text-align: center; cursor: pointer;">
+        <span id="span-1" class="exportAllNotesJson"  >Export Json</span>
+      </div>
+
+      <div id="setting-d2" class="" style="font-weight: 600; align-items: center;justify-content: center;display: flex; text-align: center; cursor: pointer;">
+        <span class="NameOfPerson">Hello ...</span>
+      </div>
+
+      <div id="setting-d2" class="LogOut" style="background-color: darkred; color: white; align-items: center; justify-content: center; display: flex; text-align: center; cursor: pointer;">
+        <span class="LogOut">LogOut</span>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  <!-- end of setting!-->
+  
+<script src="./cdn/swalCdn.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+  
+<script src="./main.js" type="module"></script>
+
+</body>
+
+</html>
